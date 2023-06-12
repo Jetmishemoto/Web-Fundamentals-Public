@@ -1,132 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
-</head>
-<!--  -->
-<body>
-    
-    <h1> Registration Form</h1>
+  </head>
+  <!--  -->
+  <body>
+    <h1>Registration Form</h1>
 
     <form action="#">
-
-
-
-    <div>
+      <div>
         <label> First Name * :</label>
-        <input type="text" name="First Name"
-        placeholder="Enter your first name">
+        <input
+          type="text"
+          name="First Name"
+          placeholder="Enter your first name"
+        />
+      </div>
+      <br />
 
-    </div>
-    <br>
-
-    <div>
+      <div>
         <label> Last Name *:</label>
-        <input type="text" name="Last Name"
-        placeholder="Enter your last name">
+        <input
+          type="text"
+          name="Last Name"
+          placeholder="Enter your last name"
+        />
+      </div>
+      <br />
 
-    </div>
-    <br>
-
-    <div>
+      <div>
         <label> Email Adress * :</label>
-        <input type="text" name="Email Adress"
-        placeholder="Whats your email adress">
+        <input
+          type="text"
+          name="Email Adress"
+          placeholder="Whats your email adress"
+        />
+      </div>
+      <br />
 
-    </div>
-    <br>
-
-    <div>
+      <div>
         <label> Pasword *:</label>
-        <input type="text" name="Password"
-        placeholder=" Create a pasword">
+        <input type="text" name="Password" placeholder=" Create a pasword" />
+      </div>
+      <br />
 
-    </div>
-    <br>
-
-    <div>
+      <div>
         <label> Confirm Pasword * :</label>
-        <input type="text" name="Password"
-        placeholder=" Create a pasword">
+        <input type="text" name="Password" placeholder=" Confirm pasword" />
+      </div>
+      <br />
 
-    </div>
-    <br>
+      <div>
+        <label> Birthday</label>
+        <input type="date" name="Birthday" />
+      </div>
 
-    <div>
-        <label > Birthday</label>
-        <input type="date" name="Birthday">
+      <br />
 
-    </div>
+      <div>
+        <label> Gender Idenity :</label>
+      </div>
 
-    <br>
+      <div>
+        <label>Male</label>
+        <input type="radio" name="Male" value="bold" id="Male" />
 
+        <label>Female</label>
+        <input type="radio" name="Female" value="bold" id="Female" />
 
-    <div>
-        <label > Gender Idenity :</label>
-    </div>
+        <label>Non-binary</label>
+        <input type="radio" name="Non-binary" value="bold" id="Non-binary" />
 
-    <div>
-        <label >Male</label>
-        <input type="radio" name="Male" value="bold" id="Male">
+        <label>I prefer not to answer</label>
+        <input
+          type="radio"
+          name="I prefer not to answer"
+          value="bold"
+          id="I_prefer_not_toanswer"
+        />
+      </div>
+      <br />
 
-        <label >Female</label>
-        <input type="radio" name="Female" value="bold" id="Female">
-
-        <label >Non-binary</label>
-        <input type="radio" name="Non-binary" value="bold" id="Non-binary">
-
-        <label >I prefer not to answer</label>
-        <input type="radio" name="I prefer not to answer" value="bold" id="I_prefer_not_toanswer">
-    </div>
-    <br>
-
-
-    <div>
-
+      <div>
         <label>Tell us about your self :</label>
-        <br>
+        <br />
         <textarea name="comment" cols="50" rows="3"></textarea>
+      </div>
 
-    </div>
+      <br />
 
-    <br>
-
-    <div>
-
+      <div>
         <label>Whats your favorite coding language : </label>
 
         <select name="Coding Languages">
-            <option value="Java">Java</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="Pita and Hummus">Pita and Hummus</option>
-            <option value="Pears">Pears</option>
+          <option value="Java">Java</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="html">html</option>
+          <option value="C#">C#</option>
         </select>
-    </div>
-    <br>
+      </div>
+      <br />
 
-    <div>
-    
-    <input type="checkbox" name="accept" id="accept">
-    <label for="accept">Yes, I would like to receive periodic email updates</label>
-    
-    </div>
-    <br>
+      <div>
+        <input type="checkbox" name="accept" id="accept" />
+        <label for="accept"
+          >Yes, I would like to receive periodic email updates</label
+        >
+      </div>
+      <br />
 
-    <div>
-        <input type="submit" value="Create Account!" >
-    </div>
-    <p>* Indicatesa requiired field</p>
-</form>
-    <hr>
-
-
-
-
-
-
-
-    
-</body>
+      <div>
+        <input type="submit" value="Create Account!" />
+      </div>
+      <p>* Indicatesa requiired field</p>
+    </form>
+    <hr />
+  </body>
 </html>
