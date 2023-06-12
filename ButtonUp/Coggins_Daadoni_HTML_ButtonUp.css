@@ -1,0 +1,32 @@
+.SearchBtn{
+width: 100px;
+    border-radius: 10px;
+    border-width: thin;
+    color: aqua;
+    border-color: lightseagreen;
+
+}
+
+.PlusBtn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: x-large;
+    color: aliceblue;
+    background-color: aqua;
+    border-width: thin;
+    border-color: aqua;
+
+}
+.CreateAccountBtn{
+    width: 150px;
+    height: 30px;
+    color: aliceblue;
+    background-color: rgb(43 120 228);
+    border-width: thin;
+    border-color: black;
+
+    box-shadow: 10px 5px 5px black;
+
+
+}
