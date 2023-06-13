@@ -1,21 +1,45 @@
 .Title{
     display: flex;
     justify-content: center;
+    font-size: x-large;
     
 }
 
 
 .row{
-    width: 100%;
-    height: 100px;
+    margin: 50px;
+    height: 180px;
     display: flex;
-    /* align-items: center; */
+    /* background-color: #5dc7ff; */
 }
 .col{
+    background-color: aqua;
+    flex: 1;
+    height: 220px;
+    margin: auto;
+
+}
+.col-2{
+    flex: 2;
+    background-color: pink;
+    height: 220px;
+    margin: auto;
+
+}
+.col-2 img{
+
+    margin-left: 114px
+
+}
+.col-3{
+    flex: 1;
+    height: 220px;
+    margin: auto;
 
 }
 
 img{
     height: 200px;
-    
+    margin-top: 10px;
+    margin-left: 52px;
 }
