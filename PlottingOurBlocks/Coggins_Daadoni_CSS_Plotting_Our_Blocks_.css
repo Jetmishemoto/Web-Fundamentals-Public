@@ -1,10 +1,13 @@
 .container{
     width: 950px;
     background-color: silver;
-    margin: 0px auto;
+    position: fixed;
+   
 }
 .top-nav {
-    height: 150px;
+    height: 136px;
+    width: 925px;
+    margin: 10px 10px 10px 10px;
     background-color: green;
 }
 .side-nav {
