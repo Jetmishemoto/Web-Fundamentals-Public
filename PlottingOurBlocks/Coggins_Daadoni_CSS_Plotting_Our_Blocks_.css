@@ -2,64 +2,79 @@
     width: 950px;
     height: 579px;
     background-color: silver;
-    position: fixed;
+    /* position: fixed; */
    
 }
 .top-nav {
     height: 136px;
     width: 925px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
+    display: inline-block;
+    /* margin: 10px 10px 10px 10px; */
     background-color: green;
 }
 .side-nav {
     height: 300px;
     width: 200px;
-    margin: 10px;
+    display: inline-block;
+     margin: 10px; 
     background-color: blue;
 }
 .main{
     height: 400px;
     width: 700px;
-    margin: auto;
-    position: relative;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+
+    /* position: relative;
     bottom: 307px;
-    left: 109px;
+    left: 109px; */
     background-color: red;
 }
 .sub-content {
   
     height: 213px;
     width: 207px;
-    top: 13px;
+    /* top: 13px;
     position: absolute;
-    right: 472px;
+    right: 472px; */
+    margin: 10px;
+    display: inline-block;
     background-color: yellow;
 }
 .sub-content_1 {
     
     height: 213px;
     width: 207px;
-    top: 13px;
+    margin: 10px;
+    display: inline-block;
+    
+    /* top: 13px;
     position: absolute;
-    right: 244px;
+    right: 244px; */
     background-color: yellow;
 }
 .sub-content_2 {
     
     height: 213px;
     width: 207px;
-    top: 13px;
+    margin: 10px;
+    display: inline-block;
+    
+    /* top: 13px;
     position: absolute;
-    right: 18px;
+    right: 18px; */
     background-color: yellow;
 }
 #advertisement {
     height: 101px;
     width: 667px;
-    position: absolute;
+    margin: 10px;
+    /* position: absolute;
     margin: 0 auto;
     top: 246px;
-    left: 18px;
+    left: 18px; */
     background-color: purple;
 }
 
