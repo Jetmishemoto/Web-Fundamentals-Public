@@ -25,39 +25,37 @@
 .sub-content {
   
     height: 213px;
-    width: 218px;
+    width: 207px;
     top: 13px;
     position: absolute;
-    right: 471px;
+    right: 472px;
     background-color: yellow;
 }
 .sub-content_1 {
     
     height: 213px;
-    width: 218px;
+    width: 207px;
     top: 13px;
     position: absolute;
-    right: 240px;
-    
+    right: 244px;
     background-color: yellow;
 }
 .sub-content_2 {
     
     height: 213px;
-    width: 218px;
+    width: 207px;
     top: 13px;
     position: absolute;
-    right: 10px;
-   
+    right: 18px;
     background-color: yellow;
 }
 #advertisement {
-    height: 120px;
-    width: 660px;
+    height: 101px;
+    width: 667px;
     position: absolute;
     margin: 0 auto;
     top: 246px;
-    left: 20px;
+    left: 18px;
     background-color: purple;
 }
 
