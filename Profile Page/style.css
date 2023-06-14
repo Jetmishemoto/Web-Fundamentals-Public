@@ -5,43 +5,75 @@
 
 .nav{
     display: flex;
-    /* justify-content: space-between; */
+     justify-content: space-between; 
     align-items: center;
     background-color: black;
 
 }
 
 .nav-title{
+    font-size: xxx-large;
+    margin: 0 0 0 291px;
     color: aliceblue;
 }
-.nav-links {
+.nav-links  {
     align-items: center;
     display: flex;
-    margin-left: 10%;
+    color: white;
+    
     justify-content: space-evenly;
     padding: 10px;
     
 
 
 }
+a{
+    text-decoration: none;
+    color: white;
+
+}
+ul{
+    
+    list-style-type: none;
+}
 li{
-    margin: 0 10px 0 10px
+    
+    text-decoration: none;
+    margin:0 40px 0 17px
 }
+
 .signout-btn{
+    font-size: 24px;
+    margin-left: 858px;
+    padding: 5px;
 
 }
 
+.main{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    margin: 100px 300px 100px 300px;
+    background-color: gray;
 
+}
+.left-area{
+   
+    
+   
+}
 .profile-area{
 
 }
 .education-block{
 
 }
+
+
 .connection-requests{
 
 }
 .active-connections{
-    
+
 }
 
