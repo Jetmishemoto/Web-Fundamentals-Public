@@ -16,7 +16,14 @@
     background-color: aqua;
     flex: 1;
     height: 220px;
-    margin: auto;
+    
+
+}
+.imgcol{
+    display: flex;
+    width: 100%;
+    margin-left: 38px;
+    justify-content: center;
 
 }
 .col-2{
@@ -26,11 +33,20 @@
     margin: auto;
 
 }
-.col-2 img{
+
+.imgcol-2{
+    display: flex;
+    width: 100%;
+    margin-left: 36px;
+    justify-content: center;
+
+}
+
+/* .col-2 img{
 
     margin-left: 114px
 
-}
+} */
 .col-3{
     flex: 1;
     height: 220px;
@@ -38,8 +54,18 @@
 
 }
 
+.imgcol-3{
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+    justify-content: center;
+
+}
+
+
 img{
+    display: inline-block;
     height: 200px;
-    margin-top: 10px;
-    margin-left: 52px;
+    margin: 10px 10px 0 10px;
+    
 }
