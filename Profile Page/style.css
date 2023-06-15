@@ -97,6 +97,36 @@ li{
     
 }
 
+.info{
+
+}
+.info img{
+    width: 23px;
+    margin: 0 auto;
+}
+.mapicon{
+    display: inline-block;
+    margin: 14px 34px;
+
+}
+
+#state{
+    /* display: inline-block; */
+    margin: -49px 88px 0;
+    font-size: 35px;
+}
+
+#name{
+    font-size: 50px;
+    margin: -63px 30px 0;
+}
+#moreinfo{
+
+    margin: 15px 30px 0;
+    font-size: xx-large;
+
+}
+
 
 .education-block {
     background-color: white;
