@@ -61,8 +61,8 @@ li{
 }
 .left-area{
     display: flex;
-    margin: 0 0 188px 0;
-   
+    /* margin: 0 0 188px 0; */
+    flex-direction: column;
    
     
    
@@ -71,7 +71,7 @@ li{
     background-color: white;
     height: 558px;
     width: 665px;
-    margin: 33px 49px 101px 50px;
+    margin: 0px 0px 21px 50px;
 }
 .profile-areatop {
    
@@ -86,7 +86,7 @@ li{
     height: 224px;
     width: 669px;
     align-self: flex-end;
-    margin: 104px 142px -144px -715px;
+    /* margin: 104px 142px -144px -715px; */
 }
 .education-blocktop{
     background-color: rgb(51, 51, 51);
@@ -96,7 +96,12 @@ li{
 
 }
 
-
+.sidebar{
+    display: flex;
+    /* margin: 0 0 188px 0; */
+    flex-direction: column;
+   
+}
 .connection-requests{
 
 }
