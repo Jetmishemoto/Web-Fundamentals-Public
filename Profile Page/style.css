@@ -44,7 +44,8 @@ li{
 
 .signout-btn {
     color: white;
-    background-color: aqua;
+    background-color: #17a2b8;
+    direction: none;
     font-size: 24px;
     margin-left: 575px;
     margin-right: 250px;
@@ -70,42 +71,69 @@ li{
 .profile-area {
     background-color: white;
     height: 558px;
-    width: 665px;
+    width: 833px;
     margin: 0px 0px 21px 50px;
 }
 .profile-areatop {
    
-    background-color:aqua;
+    background-color:#17a2b8;;
     height: 184px;
-    width: 665px;
+    width: 833px;
     
 }
 
 .education-block {
     background-color: white;
     height: 224px;
-    width: 669px;
+    width: 833px;
     align-self: flex-end;
-    /* margin: 104px 142px -144px -715px; */
+    
 }
 .education-blocktop{
     background-color: rgb(51, 51, 51);
     height: 87px;
-    width: 669px;
+    width: 833px;
     
 
 }
 
 .sidebar{
     display: flex;
-    /* margin: 0 0 188px 0; */
+   
     flex-direction: column;
    
 }
 .connection-requests{
+    background-color: white;
+    height: 303px;
+    width: 326px;
+    margin: 0px 0px 192px 60px;
 
 }
+.connection-requests-top{
+
+    background-color: rgb(51, 51, 51);
+    height: 87px;
+    width: 326px;
+
+}
+
+
 .active-connections{
+
+    background-color: white;
+    height: 303px;
+    width: 326px;
+    /* margin: 0px 0px 490px 82px; */
+    align-self: flex-end;
+
+
+}
+.active-connections-top{
+
+    background-color: rgb(51, 51, 51);
+    height: 87px;
+    width: 326px;
 
 }
 
