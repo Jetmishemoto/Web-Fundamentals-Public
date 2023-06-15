@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: cursive;
 }
 
 .nav{
@@ -65,9 +66,7 @@ li{
     display: flex;
     /* margin: 0 0 188px 0; */
     flex-direction: column;
-   
-    
-   
+
 }
 .profile-area {
     background-color: white;
@@ -90,7 +89,6 @@ li{
 }
 
 .profile-areatop {
-   
     background-color:#17a2b8;;
     height: 184px;
     width: 833px;
@@ -100,6 +98,7 @@ li{
 .info{
 
 }
+
 .info img{
     width: 23px;
     margin: 0 auto;
@@ -109,11 +108,28 @@ li{
     margin: 14px 34px;
 
 }
+.gear img{
+    width: 40px;
+
+}
+.gearicon{
+    
+    Display: inline-block;
+    margin: 14px 34px;
+
+}
+#editprofile{
+    margin: -65px 98px 0;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #2b78e4;
+
+}
 
 #state{
     /* display: inline-block; */
     margin: -49px 88px 0;
-    font-size: 35px;
+        font-size: 35px;
 }
 
 #name{
@@ -122,8 +138,8 @@ li{
 }
 #moreinfo{
 
-    margin: 15px 30px 0;
-    font-size: xx-large;
+    margin: 5px 30px 0;
+    font-size: 32px;
 
 }
 
