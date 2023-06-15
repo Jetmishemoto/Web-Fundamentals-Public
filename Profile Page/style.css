@@ -284,14 +284,21 @@ li{
 }
 /* ---------------------------------- */
 .connection-requests-profiles-listitems{
-    margin: 0 0px 0 5px;
+    margin: 0 0px 0 17px;
     display: flex;
     align-items: center;
     
 }
 
 
+.iconsgroups{
+    margin: 0 0px 0 17px;
 
+}
+.iconsgroups-2{
+    margin: 0 0px 0 30px;
+
+}
 #icon{
     display: inline-block;
 
