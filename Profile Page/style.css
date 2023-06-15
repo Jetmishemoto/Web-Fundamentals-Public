@@ -56,8 +56,9 @@ li{
     display: flex;
     align-items: center;
     height: 860px;
-    margin: 27px 300px 100px 300px;
-    background-color: gray;
+    width: 1315px;
+    margin: 0 auto;
+    /* background-color: gray; */
 
 }
 .left-area{
@@ -73,7 +74,21 @@ li{
     height: 558px;
     width: 833px;
     margin: 0px 0px 21px 50px;
+    border: 1px solid rgb(143, 143, 143);
+    outline: 5px;
 }
+
+.profile-pic{
+    margin: -92px 50px 60px 50px;
+    
+}
+
+.profile-pic img{
+    border-radius: 100px;
+    width: 150px;
+    
+}
+
 .profile-areatop {
    
     background-color:#17a2b8;;
@@ -82,11 +97,14 @@ li{
     
 }
 
+
 .education-block {
     background-color: white;
     height: 224px;
     width: 833px;
     align-self: flex-end;
+    border: 1px solid rgb(143, 143, 143);
+    outline: 5px;
     
 }
 .education-blocktop{
@@ -107,7 +125,9 @@ li{
     background-color: white;
     height: 303px;
     width: 326px;
-    margin: 0px 0px 192px 60px;
+    margin: 0px 0px 96px 60px;
+    border: 1px solid rgb(143, 143, 143);
+    outline: 5px  ;
 
 }
 .connection-requests-top{
@@ -118,14 +138,21 @@ li{
 
 }
 
+.active-connections-box{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .active-connections{
 
     background-color: white;
-    height: 303px;
+    height: 411px;
     width: 326px;
     /* margin: 0px 0px 490px 82px; */
     align-self: flex-end;
+    border: 1px solid rgb(143, 143, 143);
+    outline: 5px  ;
 
 
 }
