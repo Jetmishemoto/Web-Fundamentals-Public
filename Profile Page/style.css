@@ -14,7 +14,7 @@
 .nav-title{
     font-size: xxx-large;
     margin: 0 0 0 291px;
-    color: aliceblue;
+    color: white;
 }
 .nav-links  {
     align-items: center;
@@ -42,30 +42,57 @@ li{
     margin:0 40px 0 17px
 }
 
-.signout-btn{
+.signout-btn {
+    color: white;
+    background-color: aqua;
     font-size: 24px;
-    margin-left: 858px;
+    margin-left: 575px;
+    margin-right: 250px;
     padding: 5px;
-
 }
 
 .main{
     display: flex;
     align-items: center;
-    height: 700px;
-    margin: 100px 300px 100px 300px;
+    height: 860px;
+    margin: 27px 300px 100px 300px;
     background-color: gray;
 
 }
 .left-area{
+    display: flex;
+    margin: 0 0 188px 0;
+   
    
     
    
 }
-.profile-area{
-
+.profile-area {
+    background-color: white;
+    height: 558px;
+    width: 665px;
+    margin: 33px 49px 101px 50px;
 }
-.education-block{
+.profile-areatop {
+   
+    background-color:aqua;
+    height: 184px;
+    width: 665px;
+    
+}
+
+.education-block {
+    background-color: white;
+    height: 224px;
+    width: 669px;
+    align-self: flex-end;
+    margin: 104px 142px -144px -715px;
+}
+.education-blocktop{
+    background-color: rgb(51, 51, 51);
+    height: 87px;
+    width: 669px;
+    
 
 }
 
