@@ -76,27 +76,27 @@ li{
     flex-direction: column;
 
 }
-.profile-area {
+    .profile-area {
     background-color: white;
     height: 558px;
     width: 833px;
     margin: 0px 0px 21px 50px;
-    border: 4px solid rgb(143, 143, 143);
+    border: 4px solid rgb(185, 185, 185);
     outline: 5px;
 }
 
-.profile-pic{
+    .profile-pic{
     margin: -92px 50px 60px 50px;
     
 }
 
-.profile-pic img{
+    .profile-pic img{
     border-radius: 100px;
     width: 150px;
     
 }
 
-.profile-areatop {
+    .profile-areatop {
     background-color:#17a2b8;;
     height: 184px;
     width: 833px;
@@ -151,13 +151,13 @@ li{
 
 }
 
-
+/* ----------------------------- */
 .education-block {
     background-color: white;
     height: 256px;;
     width: 833px;
     align-self: flex-end;
-    border: 4px solid rgb(143, 143, 143);
+    border: 4px solid rgb(185, 185, 185);
     outline: 5px;
     
 }
@@ -195,6 +195,8 @@ li{
 
 }
 
+/* --------------------------------- */
+
 
 
 
@@ -209,7 +211,7 @@ li{
     height: 303px;
     width: 326px;
     margin: 0px 0px 96px 60px;
-    border: 4px solid rgb(143, 143, 143);
+    border: 4px solid rgb(185, 185, 185);
     outline: 5px  ;
 
 }
@@ -220,10 +222,40 @@ li{
     width: 326px;
 
 }
+.connection-toptext {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+
+
+
+}
+.connection-num{
+    color: white;
+    background-color: gray;
+    padding-left: 7px;
+    width: 25px;
+    border-radius: 50%;
+   
+
+}
+
+.connection-requests-top h2{
+    color : white;
+
+
+}
+
+/* ------------------------------------------- */
 
 .active-connections-box{
     display: flex;
     flex-direction: column;
+}
+
+.active-connections h2{
+    color : white;
+
 }
 
 
@@ -233,16 +265,31 @@ li{
     width: 326px;
     /* margin: 0px 0px 490px 82px; */
     align-self: flex-end;
-    border: 4px solid rgb(143, 143, 143);
+    border: 4px solid rgb(185, 185, 185);
     outline: 5px  ;
 
 
 }
-.active-connections-top{
+.active-connections-toptext{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
 
     background-color: rgb(51, 51, 51);
     height: 87px;
-    width: 326px;
+ 
 
+}
+
+.active-connection-num{
+    color: white;
+    background-color: gray;
+    padding-left: 20px;
+    width: 72px;
+    border-radius: 50%;
+
+}
+#active-connections-text{
+    padding-right: 10px;
 }
 
