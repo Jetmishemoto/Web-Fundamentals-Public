@@ -87,12 +87,10 @@ li{
     outline: 5px;
 }
 
-    .profile-pic{
-    margin: -92px 50px 60px 50px;
-    
-}
 
-    .profile-pic img{
+
+.profile-pic {
+    margin: -92px 50px 60px 50px;
     border-radius: 100px;
     width: 150px;
     
@@ -108,11 +106,11 @@ li{
 
 .info img{
     width: 23px;
-    margin: 0 auto;
+    
 }
 .mapicon{
     display: inline-block;
-    margin: 14px 34px;
+    margin: 14px 34px; 
 
 }
 .gear img{
