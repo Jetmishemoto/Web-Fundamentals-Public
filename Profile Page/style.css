@@ -296,7 +296,7 @@ li{
 
 }
 .iconsgroups-2{
-    margin: 0 0px 0 30px;
+    margin: 0 0px 0 32px;
 
 }
 #icon{
@@ -307,6 +307,8 @@ li{
 #profile-1{
 
     margin: 30px 30px 0;
+    font-size: 21px;
+    font-weight: bold;
     
 
 }
@@ -316,6 +318,8 @@ li{
 
 #profile-2{
     margin: 30px 30px 0;
+    font-size: 21px;
+    font-weight: bold;
     
 }
 
@@ -379,6 +383,7 @@ border: 2px solid rgb(185, 185, 185);
     padding-top: 5px;
     text-decoration: underline;
     color: #2b78e4;
+    margin-left: 10px;
 
  
 
