@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+
+
+
+.wrapper{
+    /* display: flex; */
+    margin: 0 auto;
+    /* swidth:  1000px; */
+    height: 1000px;
+    
+}
+
+.nav{
+    display: flex;
+     justify-content: space-between; 
+    align-items: center;
+    background-color: black;
+
+}
