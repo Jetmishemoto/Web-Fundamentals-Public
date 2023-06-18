@@ -3,6 +3,9 @@
     margin: 0;
     font-family: cursive;
 }
+body{
+    background-color: rgb(114, 114, 114);
+}
 
 
 
@@ -17,8 +20,51 @@
 
 .nav{
     display: flex;
+    margin: 0 59px;
      justify-content: space-between; 
     align-items: center;
     background-color: black;
 
+}
+
+.nav-title{
+    font-size: xxx-large;
+    margin: 0 0 0 291px;
+    color: white;
+}
+.nav-links  {
+    align-items: center;
+    display: flex;
+    color: white;
+    
+    justify-content: space-evenly;
+    padding: 10px;
+    
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+ul{
+    
+    list-style-type: none;
+}
+li{
+    
+    text-decoration: none;
+    margin:0 40px 0 17px
+}
+
+.signout-btn {
+    color: white;
+    background-color: #17a2b8;
+    direction: none;
+    font-size: 24px;
+    margin-left: 575px;
+    margin-right: 250px;
+    padding: 5px;
 }
