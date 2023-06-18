@@ -11,11 +11,11 @@ function LogOut(Element){
 
 
 
-
-
 function RemoveDefBnt(Element){
     Element.remove();
 }
+
+
 
 function likealert(){
     alert("Ninja was liked! Sweet!");
