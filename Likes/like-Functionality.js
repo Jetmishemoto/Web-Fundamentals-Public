@@ -9,7 +9,5 @@ function likebtnIncrement(){
     count++;
     ilikecount.innerText = count;
     console.log(count)
-    return count;
-   
 }
 

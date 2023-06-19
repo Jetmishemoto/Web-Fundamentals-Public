@@ -157,11 +157,18 @@ box-shadow: 5px 5px 2.1px  #4b4b4b;
     width: 125px;
 }
 
-.definition-1{
+.likebtnarea{
     display: flex;
     margin: 75px 50px;
     font-size: large;
     /* align-items: center; */
+}
+
+
+.definition-1{
+    display: flex;
+    margin: 56px 14px;
+    font-size: large;
 }
 .definition-2{
     display: flex;
@@ -180,7 +187,7 @@ box-shadow: 5px 5px 2.1px  #4b4b4b;
     color: black;
     font-weight: bold;
     font-size: medium;
-    margin: 38px 0;
+    margin: 38px 50px;
     width: 113px;
     height: 47px;
 }
