@@ -52,13 +52,29 @@ body{
 }
 
 .mainuser{
-   
+   display: flex;
     height: 441px;
-    width: 393px;
+    width: 380px;
     border: 4px solid rgb(0, 0, 0);
     outline: 5px;
     margin:  50px;
     background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.userImg{
+    width: 147px;
+    margin: 41px 0;
+}
+.avatarLink{
+    margin: 25px 0;
+    font-size: x-large;
+
+}
+.userName{
+    margin: 13px 0;
+    font-size: xxx-large;
 
 }
 
