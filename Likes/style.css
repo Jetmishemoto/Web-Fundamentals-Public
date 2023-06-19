@@ -4,7 +4,7 @@
     font-family: cursive;
 }
 body{
-    background-color: rgb(114, 114, 114);
+    /* background-color: rgb(114, 114, 114); */
 }
 
 .wrapper{
@@ -81,7 +81,7 @@ body{
 
 
 .mainfeed{
-    background-color: #4b4b4b;
+    /* background-color: #4b4b4b; */
     
     width:700px;
     margin: 37px 30px;
