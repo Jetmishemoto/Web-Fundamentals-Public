@@ -127,12 +127,10 @@ body{
     height: 47px;
 }
 
-.User{
-    /* display: flex; */
 
-}
 
-#likenum{
+
+.num{
     display: inline-flex;
     font-size: x-larger;
 
