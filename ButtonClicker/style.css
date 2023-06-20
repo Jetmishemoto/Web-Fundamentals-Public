@@ -24,7 +24,9 @@ body{
 /* ------------------------------NavBar */
 .nav{
     display: flex;
-    margin: 0 412px;
+    margin: 0 413px;
+    width: 1078px;
+
     justify-content: space-evenly;
     align-items: center;
     padding-top: 10px;
