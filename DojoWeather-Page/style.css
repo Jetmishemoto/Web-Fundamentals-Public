@@ -60,3 +60,42 @@ a{
     color: white;
 
 }
+
+
+.main{
+    display: flex;
+    align-items: center;
+    height: 860px;
+    width: 1315px;
+    margin: 0 auto;
+    background-color: rgb(196, 164, 164);
+
+}
+
+.mainContaner{
+    display: flex;
+    height: 860px;
+    width: 1315px;
+    flex-direction: column;
+
+}
+
+.stateSection {
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    height: 119px;
+    width: 1200px;
+    /* margin: 0px 0px 21px 50px; */
+    /* border: 4px solid rgb(185, 185, 185);
+    outline: 5px; */
+    justify-content: space-between;
+}
+.stateName{
+    font-size: 32px;
+    font-weight: 800;
+}
+.tempText{
+    margin-left: 854px;
+
+}
