@@ -4,7 +4,7 @@
     font-family: cursive;
 }
 body{
-    background-color: rgb(114, 114, 114);
+    /* background-color: rgb(114, 114, 114); */
 }
 
 
@@ -24,7 +24,7 @@ body{
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
     background-color: #9fc5f8;
 
@@ -71,7 +71,7 @@ a{
     height: 715px;
     width: 1315px;
     margin: 0 auto;
-    background-color: rgb(196, 164, 164);
+    /* background-color: rgb(196, 164, 164); */
 
 }
 
@@ -138,6 +138,8 @@ a{
     align-items: center;
 }
 .weekDayContaner img{
+    border: .5px solid rgb(0, 0, 0);
+    
     display: block;
     width: 140px;
     height: 140px;
@@ -169,6 +171,7 @@ a{
     font-size: large;
     background-color: white;
     height: 177px;
+    width: 1307px;
     /* margin: 10px 0; */
     border: 4px solid rgb(0, 0, 0);
     outline: 5px;
@@ -179,30 +182,34 @@ a{
     bottom: 0;
 }
 .cookieArea img{
-    width: 100px;
-    height: 100px;
+    width: 111px;
+    height: 104px;
     margin: 0 20px;
 
   
 }
+.cookieArea p{
+    font-size: 26;
+   
+
+
+}
 
 .cookieArea a{
     font-size: inherit;
-    background-color: #9fc5f8;
+    color: #003ce0;
+    /* background-color: #9fc5f8; */
 
 
 }
 
 .cookieArea button{
-    margin: 0 20px;
-    width: 94px;
+    margin: 0 34px;
+    width: 151px;
     height: 43px;
     background-color: #9fc5f8;
+    box-shadow: 5px 5px 2.1px  #4b4b4b;
+    
 }
 
-.username{
-    font-size: xxx-large;
-    margin: 30px 45px;
-
-}
 
