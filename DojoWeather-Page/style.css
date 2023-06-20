@@ -21,7 +21,6 @@ body{
 /* ------------------------------NavBar */
 .nav{
     display: flex;
-   
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
@@ -61,11 +60,15 @@ a{
 
 }
 
+/* ------------------------------NavBar */
+
+
+
 
 .main{
     display: flex;
     align-items: center;
-    height: 860px;
+    height: 715px;
     width: 1315px;
     margin: 0 auto;
     background-color: rgb(196, 164, 164);
@@ -74,19 +77,23 @@ a{
 
 .mainContaner{
     display: flex;
-    height: 860px;
+    height: 691px;
     width: 1315px;
     flex-direction: column;
 
 }
+
+
+
+/* ------------------------------stateSection */
 
 .stateSection {
     display: flex;
     align-items: center;
     /* background-color: white; */
     height: 119px;
-    width: 1200px;
-    /* margin: 0px 0px 21px 50px; */
+    width: 1232px;
+    margin: 0px 0px 5px 50px;
     /* border: 4px solid rgb(185, 185, 185);
     outline: 5px; */
     justify-content: space-between;
@@ -97,5 +104,105 @@ a{
 }
 .tempText{
     margin-left: 854px;
+    font-size: 19px;
 
 }
+.tempList{
+    width: 40px;
+    height: 41px;
+}
+
+/* ------------------------------stateSection */
+
+
+.hrLine{
+    margin: 0px 34px;
+
+}
+
+/* -------------------------Weekdays */
+.weekWeatherContaner{
+    display: flex;
+    /* height: 860px;
+    width: 1315px; */
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.weekDayContaner{
+    display: flex;
+    width: 256px;
+    height: 508px;
+    /* background-color: rgb(212, 212, 212); */
+    flex-direction: column;
+    align-items: center;
+}
+.weekDayContaner img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: 67px;
+    border-radius: 50%;
+}
+
+.weekDayContaner h2{
+    margin: 20px 0;
+
+}
+
+.hottext{
+    color: #d02e2c;
+
+}
+.coldtext{
+    color: #003ce0;
+
+}   
+
+
+
+/* -------------------------Weekdays */
+
+
+.cookieArea{
+    position: fixed;
+    font-size: large;
+    background-color: white;
+    height: 177px;
+    /* margin: 10px 0; */
+    border: 4px solid rgb(0, 0, 0);
+    outline: 5px;
+    display: flex;
+    /* flex-direction: row; */
+    box-shadow: 5px 5px 2.1px #4b4b4b;
+    align-items: center;
+    bottom: 0;
+}
+.cookieArea img{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+
+  
+}
+
+.cookieArea a{
+    font-size: inherit;
+    background-color: #9fc5f8;
+
+
+}
+
+.cookieArea button{
+    margin: 0 20px;
+    width: 94px;
+    height: 43px;
+    background-color: #9fc5f8;
+}
+
+.username{
+    font-size: xxx-large;
+    margin: 30px 45px;
+
+}
+
