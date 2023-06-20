@@ -3,9 +3,7 @@
     margin: 0;
     font-family: cursive;
 }
-body{
-    /* background-color: rgb(114, 114, 114); */
-}
+
 
 
 .wrapper{
@@ -139,12 +137,13 @@ a{
 }
 .weekDayContaner img{
     border: .5px solid rgb(0, 0, 0);
-    
     display: block;
     width: 140px;
     height: 140px;
     margin: 67px;
-    border-radius: 50%;
+    box-shadow: 10px 2px 6px  rgba(0,0,0,0.6);
+
+    border-radius:100px;
 }
 
 .weekDayContaner h2{
@@ -204,6 +203,7 @@ a{
 }
 
 .cookieArea button{
+    font-weight: 700;
     margin: 0 34px;
     width: 151px;
     height: 43px;
