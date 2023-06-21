@@ -3,6 +3,9 @@
     margin: 0;
     font-family: cursive;
 }
+body{
+    /* background-color: #4b4b4b; */
+}
 
 
 
@@ -51,7 +54,7 @@ li{
     text-decoration: none;
     margin:0 40px 0 17px
 }
-a{
+.nav-links p {
     font-size: xx-large;
     text-decoration: none;
     color: white;
@@ -96,7 +99,7 @@ a{
     outline: 5px; */
     justify-content: space-between;
 }
-.stateName{
+#stateName{
     font-size: 32px;
     font-weight: 800;
 }
